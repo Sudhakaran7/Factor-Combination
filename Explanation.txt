@@ -1,0 +1,53 @@
+Numbers can be regarded as product of its factors. For example,
+8 = 2 x 2 x 2;
+  = 2 x 4.
+Write a function that takes an integer n and return all possible combinations of its factors.
+Note: 
+Each combination's factors must be sorted ascending, for example: The factors of 2 and 6 is [2, 6], not [6, 2].
+You may assume that n is always positive.
+Factors should be greater than 1 and less than n.
+
+Input Description:
+N a integer as input.(1<N<1000)
+
+Output Description:
+Print the factor combination of the given N.
+
+Sample Input:
+8
+
+Sample Output:
+[2, 4.0] [2, 2, 2.0]
+
+Explanation:
+The factors of 8 are combined.
+
+Sample Input:
+10
+
+Sample Output:
+[2, 5.0]
+
+Sampe Input:
+12
+
+Sample Output:
+[2, 6.0] [2, 2, 3.0] [3, 4.0]
+
+Sample Input:
+44
+
+Sample Output:
+[2, 22.0] [2, 2, 11.0] [4, 11.0]
+
+Sample Input:
+18
+
+Sample Output:
+[2, 9.0] [2, 3, 3.0] [3, 6.0]
+
+Sample Input:
+20
+
+Sample Output:
+[2, 10.0] [2, 2, 5.0] [4, 5.0]
